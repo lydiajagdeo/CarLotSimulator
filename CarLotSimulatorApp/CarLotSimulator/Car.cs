@@ -5,7 +5,7 @@ namespace CarLotSimulator
     {
         public Car()
         {
-
+            CarLot.numberOfCars++;
         }
 
 
@@ -51,4 +51,5 @@ namespace CarLotSimulator
         }
     }
 }
+
 
